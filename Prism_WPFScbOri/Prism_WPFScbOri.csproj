@@ -1,0 +1,168 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Active.png" />
+    <None Remove="Images\alert_img.png" />
+    <None Remove="Images\check.jpg" />
+    <None Remove="Images\citizenId_image.png" />
+    <None Remove="Images\close.png" />
+    <None Remove="Images\cross-button.png" />
+    <None Remove="Images\down_icon.png" />
+    <None Remove="Images\Globe_icon-white.svg.png" />
+    <None Remove="Images\graph-19.png" />
+    <None Remove="Images\landing page_.png" />
+    <None Remove="Images\landing page_alert.png" />
+    <None Remove="Images\landing page_bar 1.png" />
+    <None Remove="Images\landing page_bar 2.png" />
+    <None Remove="Images\landing page_begin 1.png" />
+    <None Remove="Images\landing page_begin 2.png" />
+    <None Remove="Images\landing page_bell.png" />
+    <None Remove="Images\landing page_bg 1.png" />
+    <None Remove="Images\landing page_bg 2-1.png" />
+    <None Remove="Images\landing page_bg 2.png" />
+    <None Remove="Images\landing page_center.png" />
+    <None Remove="Images\landing page_ch 1.png" />
+    <None Remove="Images\landing page_ch 2.png" />
+    <None Remove="Images\landing page_ch 3.png" />
+    <None Remove="Images\landing page_ch 4.png" />
+    <None Remove="Images\landing page_ch 5.png" />
+    <None Remove="Images\landing page_ch 6.png" />
+    <None Remove="Images\landing page_ch 7.png" />
+    <None Remove="Images\landing page_head 2.png" />
+    <None Remove="Images\landing page_icon 1.png" />
+    <None Remove="Images\landing page_icon 2.png" />
+    <None Remove="Images\landing page_icon 3.png" />
+    <None Remove="Images\landing page_icon 4.png" />
+    <None Remove="Images\landing page_icon 5.png" />
+    <None Remove="Images\landing page_icon 6.png" />
+    <None Remove="Images\landing page_icon 7.png" />
+    <None Remove="Images\landing page_line.png" />
+    <None Remove="Images\landing page_logo 1.png" />
+    <None Remove="Images\landing page_logo 2.png" />
+    <None Remove="Images\landing page_screen.png" />
+    <None Remove="Images\landing page_tool 1.png" />
+    <None Remove="Images\landing page_tool 2.png" />
+    <None Remove="Images\log in_arrow.png" />
+    <None Remove="Images\log in_bg.png" />
+    <None Remove="Images\log in_cancel 1.png" />
+    <None Remove="Images\log in_cancel 2.png" />
+    <None Remove="Images\log in_EN.png" />
+    <None Remove="Images\log in_head.png" />
+    <None Remove="Images\log in_ok 1.png" />
+    <None Remove="Images\log in_ok 2.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\NotActive.png" />
+    <None Remove="Images\sbc_serch_tpbg.png" />
+    <None Remove="Images\SCB3-02.png" />
+    <None Remove="Images\SCB3-03.png" />
+    <None Remove="Images\SCB3-04.png" />
+    <None Remove="Images\scb_cancel th 2.png" />
+    <None Remove="Images\scb_cancel th.png" />
+    <None Remove="Images\scb_mail.png" />
+    <None Remove="Images\scb_passbook print 2.png" />
+    <None Remove="Images\scb_passbook print.png" />
+    <None Remove="Images\scb_serch.png" />
+    <None Remove="Images\Sell fund flow popup-18.png" />
+    <None Remove="Images\Sell fund flow popup-19.png" />
+    <None Remove="Images\sign_image.png" />
+    <None Remove="Images\Transfers\bank-icon0.png" />
+    <None Remove="Images\Transfers\citizenId_image.png" />
+    <None Remove="Images\Transfers\no_image.png" />
+    <None Remove="Images\Transfers\sign_image.png" />
+    <None Remove="Images\uncheck.jpg" />
+    <None Remove="Images\up_icon.png" />
+    <None Remove="Images\waiting-sign.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+    <PackageReference Include="RestSharp" Version="108.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoginModule\LoginModule.csproj" />
+    <ProjectReference Include="..\MainModule\MainModule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Active.png" />
+    <Resource Include="Images\alert_img.png" />
+    <Resource Include="Images\check.jpg" />
+    <Resource Include="Images\citizenId_image.png" />
+    <Resource Include="Images\close.png" />
+    <Resource Include="Images\cross-button.png" />
+    <Resource Include="Images\down_icon.png" />
+    <Resource Include="Images\Globe_icon-white.svg.png" />
+    <Resource Include="Images\graph-19.png" />
+    <Resource Include="Images\landing page_.png" />
+    <Resource Include="Images\landing page_alert.png" />
+    <Resource Include="Images\landing page_bar 1.png" />
+    <Resource Include="Images\landing page_bar 2.png" />
+    <Resource Include="Images\landing page_begin 1.png" />
+    <Resource Include="Images\landing page_begin 2.png" />
+    <Resource Include="Images\landing page_bell.png" />
+    <Resource Include="Images\landing page_bg 1.png" />
+    <Resource Include="Images\landing page_bg 2-1.png" />
+    <Resource Include="Images\landing page_bg 2.png" />
+    <Resource Include="Images\landing page_center.png" />
+    <Resource Include="Images\landing page_ch 1.png" />
+    <Resource Include="Images\landing page_ch 2.png" />
+    <Resource Include="Images\landing page_ch 3.png" />
+    <Resource Include="Images\landing page_ch 4.png" />
+    <Resource Include="Images\landing page_ch 5.png" />
+    <Resource Include="Images\landing page_ch 6.png" />
+    <Resource Include="Images\landing page_ch 7.png" />
+    <Resource Include="Images\landing page_head 2.png" />
+    <Resource Include="Images\landing page_icon 1.png" />
+    <Resource Include="Images\landing page_icon 2.png" />
+    <Resource Include="Images\landing page_icon 3.png" />
+    <Resource Include="Images\landing page_icon 4.png" />
+    <Resource Include="Images\landing page_icon 5.png" />
+    <Resource Include="Images\landing page_icon 6.png" />
+    <Resource Include="Images\landing page_icon 7.png" />
+    <Resource Include="Images\landing page_line.png" />
+    <Resource Include="Images\landing page_logo 1.png" />
+    <Resource Include="Images\landing page_logo 2.png" />
+    <Resource Include="Images\landing page_screen.png" />
+    <Resource Include="Images\landing page_tool 1.png" />
+    <Resource Include="Images\landing page_tool 2.png" />
+    <Resource Include="Images\log in_arrow.png" />
+    <Resource Include="Images\log in_bg.png" />
+    <Resource Include="Images\log in_cancel 1.png" />
+    <Resource Include="Images\log in_cancel 2.png" />
+    <Resource Include="Images\log in_EN.png" />
+    <Resource Include="Images\log in_head.png" />
+    <Resource Include="Images\log in_ok 1.png" />
+    <Resource Include="Images\log in_ok 2.png" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\NotActive.png" />
+    <Resource Include="Images\sbc_serch_tpbg.png" />
+    <Resource Include="Images\SCB3-02.png" />
+    <Resource Include="Images\SCB3-03.png" />
+    <Resource Include="Images\SCB3-04.png" />
+    <Resource Include="Images\scb_cancel th 2.png" />
+    <Resource Include="Images\scb_cancel th.png" />
+    <Resource Include="Images\scb_mail.png" />
+    <Resource Include="Images\scb_passbook print 2.png" />
+    <Resource Include="Images\scb_passbook print.png" />
+    <Resource Include="Images\scb_serch.png" />
+    <Resource Include="Images\Sell fund flow popup-18.png" />
+    <Resource Include="Images\Sell fund flow popup-19.png" />
+    <Resource Include="Images\sign_image.png" />
+    <Resource Include="Images\Transfers\bank-icon0.png" />
+    <Resource Include="Images\Transfers\citizenId_image.png" />
+    <Resource Include="Images\Transfers\no_image.png" />
+    <Resource Include="Images\Transfers\sign_image.png" />
+    <Resource Include="Images\uncheck.jpg" />
+    <Resource Include="Images\up_icon.png" />
+    <Resource Include="Images\waiting-sign.gif" />
+  </ItemGroup>
+
+</Project>
